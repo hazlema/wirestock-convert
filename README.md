@@ -1,6 +1,12 @@
 # wirestock-convert
 Batch Convert and Scale your Images
 
+## Install
+- After downloading / cloning just run **npm install**
+- You will need an image scaler, I put the one I use above
+- You will have to modify the hard coded paths, you can put the files wherever you like. (I put the image scaler in /usr/bin)
+
+## AI Image Scaler
 I use realesrgan-ncnn-vulkan to scale the images (renamed to upscale)<br>
 https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan<br>
 
@@ -12,7 +18,5 @@ Passed arguments:<br>
 {1} is the full path to the output file<br>
 {2} is how many times the image should be scaled. (ex. 1, 2, 3, 4)<br>
 
-## Install
-- After downloading / cloning just run **npm install**
-- You wioll need an image scaler, I put the one I use above
-- You will have to modify the hard coded paths, you can put the files wherever you like. (I put the image scaler in /usr/bin)
+### This is offered for use under the MIT license.  
+(Use it however you want)
