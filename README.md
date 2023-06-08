@@ -4,19 +4,15 @@ Batch Convert and Scale your Images
 ## Install
 - After downloading / cloning just run **npm install**
 - You will need an image scaler, I put the one I use down below
-- You will have to modify the hard coded paths<br>(you can put the files wherever you like. I put the image scaler in /usr/bin)
+- You will have to modify the hard coded paths<br>
+(I put the image scaler in /usr/bin and the models in /usr/share/models)
 
 ## AI Image Scaler
-I use realesrgan-ncnn-vulkan to scale the images (renamed to upscale)<br>
+I use **realesrgan-ncnn-vulkan** to scale the images (renamed to upscale)<br>
 https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan<br>
 
 ## Modifying the scaler
-Modify **const upscale** to change the scaler command or get realesrgan-ncnn-vulkan and rename it to upscale
-
-Passed arguments:<br>
-{0} is the full path to the input file<br>
-{1} is the full path to the output file<br>
-{2} is how many times the image should be scaled. (ex. 1, 2, 3, 4)<br>
+Modify **const upscale** to change the scaler command or get **realesrgan-ncnn-vulkan** and rename it to upscale
 
 ### This is offered for use under the MIT license.  
 (Use it however you want)
