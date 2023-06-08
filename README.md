@@ -3,8 +3,8 @@ Batch Convert and Scale your Images
 
 ## Install
 - After downloading / cloning just run **npm install**
-- You will need an image scaler, I put the one I use above
-- You will have to modify the hard coded paths, you can put the files wherever you like. (I put the image scaler in /usr/bin)
+- You will need an image scaler, I put the one I use down below
+- You will have to modify the hard coded paths<br>(you can put the files wherever you like. I put the image scaler in /usr/bin)
 
 ## AI Image Scaler
 I use realesrgan-ncnn-vulkan to scale the images (renamed to upscale)<br>
