@@ -8,10 +8,10 @@ const { promisify } = require('util');
 const exec = promisify(require('child_process').exec);
 
 // Production
-//const MAX_FILE_SIZE = 4 * 1024 * 1024; // 4MB
+const MAX_FILE_SIZE = 4 * 1024 * 1024; // 4MB
 
 // Testing
-const MAX_FILE_SIZE = 796620
+//const MAX_FILE_SIZE = 796620
 
 const upscaleCmd    = '/usr/bin/upscale -i "{input}" -o "{output}" -s {factor} -m "/usr/share/models" -f jpg'
 
