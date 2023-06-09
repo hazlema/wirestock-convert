@@ -1,6 +1,8 @@
 # wirestock-convert
 Batch Convert and Scale your Images
 
+![screenshot](screenshot.png)
+
 ## Install
 - After downloading / cloning just run **npm install**
 - You will need an image scaler, I put the one I use down below
