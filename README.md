@@ -12,7 +12,7 @@ I use **realesrgan-ncnn-vulkan** to scale the images (renamed to upscale)<br>
 https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan<br>
 
 ## Modifying the scaler
-Modify **const upscale** to change the scaler command or get **realesrgan-ncnn-vulkan** and rename it to upscale
+Modify **const upscaleCmd** to change the scaler command or get **realesrgan-ncnn-vulkan** and rename it to upscale
 
 ### This is offered for use under the MIT license.  
 (Use it however you want)
