@@ -9,10 +9,10 @@ const exec = promisify(require('child_process').exec);
 const upscaleCmd = '/usr/bin/upscale -i "{input}" -o "{output}" -s {factor} -m "/usr/share/models" -f jpg'
 
 // Production
-//const MAX_FILE_SIZE = 4 * 1024 * 1024; // 4MB
+const MAX_FILE_SIZE = 4 * 1024 * 1024; // 4MB
 
 // Testing
-const MAX_FILE_SIZE = 796620
+//const MAX_FILE_SIZE = 796620
 
 function replaceTokens(string, replacements) {
     const regex = new RegExp(Object.keys(replacements).join('|'), 'g');
