@@ -31,7 +31,7 @@ async function convertResize(directoryPath) {
                 const filePath      = path.join(directoryPath, file);
                 const outputFile    = path.parse(file).name
                 const textJpgFile   = `111-stage-${outputFile}.jpg`
-                const textPubFile   = `111-stage-${outputFile}.jpg`
+                const textPubFile   = `000-publish-${outputFile}.jpg`
                 const outputFileJpg = path.join(directoryPath, `111-stage-${outputFile}.jpg`);
                 const outputFilePub = path.join(directoryPath, `000-publish-${outputFile}.jpg`);
                 
